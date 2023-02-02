@@ -13,6 +13,10 @@ body {
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
+
+p {
+    margin: 0 0 5px;
+}
 /* Header start */
 .container {
     width: 1200px;
@@ -168,3 +172,42 @@ z-index: 2;
     background-color: #b2190b;
 }
 /* Intro end */
+
+/* Info srart */
+.info {
+transform: translateY(-50%);
+}
+
+.info_wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.info_block {
+width: 33.33%;
+padding: 0 10px;
+}
+
+.info_item {
+background-color: #fff;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+padding: 40px 40px 30px; 
+}
+
+
+.info_img img {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.info_title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.15em;
+}
+
+.info_text {
+color: #B7B7B7;
+font-size: 18px;
+}
+/* Info end */
