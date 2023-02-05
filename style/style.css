@@ -411,5 +411,140 @@ text-decoration: none;
     height: 100%;
     min-height: 150px; 
 }
-
 /* Process end */
+
+/* Contact Start */
+
+.contacts {
+    padding: 100px 0;
+    background-color: #171616; 
+}
+
+.contacts .block_title {
+    margin-bottom: -40px;
+}
+
+.contacts_form {
+    max-width: 440px;
+}
+
+.form_row {
+    margin: 0 -20px;
+    display: flex;  
+}
+
+.form_group {
+    padding: 0 20px;
+    flex: 1;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 9px 0;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: inherit;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+.input:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.textarea {
+    min-height: 130px;
+    width: 100%;
+    padding: 9px 0;
+    resize: vertical;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: inherit;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.btn {
+    min-width: 200px;
+    height: 50px;
+    padding: 0px 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #DB2512;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+}
+/* Contact End */
+
+/* Footer Start */
+.footer {
+
+}
+
+.footer_wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    letter-spacing: 0.15em;
+}
+
+.footer_soc {
+    display: flex;
+}
+
+.footer_soc-link {
+margin-right: 20px;
+text-decoration: none;
+}
+
+.footer_soc-link:last-child {
+margin-right: 0px;
+}
+.footer_soc_link img {
+
+}
+/* Footer End */
