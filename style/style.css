@@ -27,8 +27,10 @@ p {
 
 /* Header start */
 .container {
-    width: 1200px;
+    max-width: 1230px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -150,7 +152,9 @@ p {
     z-index: 2;
 }
 
-.intro-block {}
+.intro-block {
+    text-align: center;
+}
 
 .intro-title {
     color: #FFFFFF;
@@ -210,6 +214,7 @@ p {
     margin-bottom: 10px;
     font-size: 18px;
     letter-spacing: 0.15em;
+    color: #000;
 }
 
 .info_text {
@@ -226,6 +231,7 @@ p {
     font-size: 30px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    
 
 }
 
@@ -336,7 +342,6 @@ text-decoration: none;
 
 .about {
     padding: 115px 0px;
-    height: 665px;
     left: 0;
     top: 1739px;
     background-color: #171616;
@@ -346,6 +351,7 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #171616;
 }
 .about_block {
     max-width: 505px;
@@ -357,15 +363,13 @@ text-decoration: none;
     margin-bottom: 42px;
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .about_text {
     margin-bottom: 48px;
-    width: 500px;
-    height: 180px;
     font-size: 15px;
     letter-spacing: 0.23em;
     color: #B7B7B7;
@@ -383,12 +387,16 @@ text-decoration: none;
     text-decoration: none;
     transition: text-decoration 0.2s ease;
 }
+
+.about-img {
+    width: 100%;
+}
 /* About end */
 
 /* Process start */
 
 .process_title {
-   margin-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 148px;
     font-weight: 900;
     text-transform: uppercase;
@@ -422,6 +430,10 @@ text-decoration: none;
 
 .contacts .block_title {
     margin-bottom: -40px;
+}
+
+.block_title {
+    width: 100%;
 }
 
 .contacts_form {
